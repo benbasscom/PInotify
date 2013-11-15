@@ -80,7 +80,7 @@ echo "checking for previously loaded plist."
 if [ -n "$launchd_chk" ]; then
 
 	echo "previous version found, unloading"
-	launchctl unload /Library/LaunchDaemons/com.trmacs.pinotify.plist
+	launchctl unload -w /Library/LaunchDaemons/com.trmacs.pinotify.plist
 	echo "done"
 else
 	echo "No previous version found, nothing to unload."

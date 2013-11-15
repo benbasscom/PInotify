@@ -568,7 +568,7 @@
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
-				<string>1.4.8.1</string>
+				<string>1.4.8.2</string>
 			</dict>
 			<key>UUID</key>
 			<string>DA167FB0-1982-4D99-B556-4953FE34C028</string>
@@ -641,7 +641,7 @@
 										<key>LANGUAGE</key>
 										<string>English</string>
 										<key>VALUE</key>
-										<string>Installs the Private Eyes notification Scripts.  If Apple Mail is needed, changes need to be made to /Library/LaunchDaemons/com.trmacs.pinotify.plist.</string>
+										<string>Installs the Private Eyes notification Scripts. If SMTP on port 25 is blocked, changes need to be made to the main.cf to setup a smtp relay.</string>
 									</dict>
 								</array>
 								<key>OPTIONS</key>
@@ -716,7 +716,7 @@
 				<key>INSTALLATION TYPE</key>
 				<integer>0</integer>
 				<key>MODE</key>
-				<integer>2</integer>
+				<integer>0</integer>
 			</dict>
 			<key>INSTALLATION_STEPS</key>
 			<array>
@@ -799,7 +799,19 @@
 				<key>KEYWORDS</key>
 				<dict/>
 				<key>LOCALIZATIONS</key>
-				<array/>
+				<array>
+					<dict>
+						<key>LANGUAGE</key>
+						<string>English</string>
+						<key>VALUE</key>
+						<dict>
+							<key>PATH</key>
+							<string>../LICENSE.txt</string>
+							<key>PATH_TYPE</key>
+							<integer>1</integer>
+						</dict>
+					</dict>
+				</array>
 				<key>MODE</key>
 				<integer>0</integer>
 			</dict>

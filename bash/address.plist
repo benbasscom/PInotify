@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>PI</key>
-	<string>ben@trmacs.com, jason+backup@trmacs.com</string>
+	<string>ben@trmacs.com</string>
 	<key>alerts</key>
-	<string>ben@trmacs.com, jason+backup@trmacs.com</string>
+	<string>ben@trmacs.com</string>
 </dict>
 </plist>

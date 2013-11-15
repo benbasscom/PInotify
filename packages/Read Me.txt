@@ -4,4 +4,4 @@ This is still in testing.
 
 Please Note:
 
-1.  Change the notification e-mail in each script in /Library/Scripts/trmacs. 
+1.  Destination e-mail addresses are located in /Library/Scripts/trmacs/address.plist in the PI key. 
